@@ -1,5 +1,7 @@
 // import React from 'react';
 import logo from '../../../assets/logo.svg'
+import shop from '../../../assets/icons/shopping-bag.png'
+import search from '../../../assets/icons/search.png'
 
 import { Link } from "react-router-dom";
 
@@ -33,7 +35,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-bold ">
                         {navItem}
                     </ul>
                 </div>
@@ -42,12 +44,14 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 font-bold">
                     {navItem}
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-outline btn-error">Appointment</button>
+                <img className='w-6 mr-5' src={shop} alt="" />
+                <img className='w-6 mr-5' src={search} alt="" />
+                <button className="btn btn-outline btn-error font-bold">Appointment</button>
             </div>
         </div>
     );
