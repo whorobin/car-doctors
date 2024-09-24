@@ -1,11 +1,12 @@
 // import Footer from "../../Shared/Footer/Footer";
 
+import Banner from "../Banner/Banner";
+
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is home</h2>
-
+        <div className="">
+            <Banner></Banner>
         </div>
     );
 };
