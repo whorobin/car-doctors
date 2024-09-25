@@ -1,13 +1,15 @@
 // import React from 'react';
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
-        <footer className="footer footer-center bg-black text-white rounded p-10 m-0">
+        <footer className="footer footer-center bg-black text-white rounded p-10 mb-0">
             <nav className="grid grid-flow-col gap-4">
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+                <a className="link link-hover"><Link to='/'>Home</Link></a>
+                <a className="link link-hover"><Link to='services'>Services</Link></a>
+                <a className="link link-hover"><Link to='/contact'>Contact</Link></a>
+                <a className="link link-hover"><Link to='/products'>Products</Link></a>
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">
@@ -47,7 +49,7 @@ const Footer = () => {
                 </div>
             </nav>
             <aside>
-                <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
             </aside>
         </footer>
     );

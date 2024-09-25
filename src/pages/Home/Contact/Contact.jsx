@@ -4,9 +4,9 @@ import { MdOutlineLocationOn } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-3 space-y-7 text-center bg-black my-10 rounded-3xl p-20 text-white">
-            <div className="flex justify-center items-center gap-4">
-                <div><SlCalender className="text-4xl"></SlCalender></div>
+        <div className="grid grid-cols md:grid-cols-1 lg:grid-cols-3 gap-3 space-y-7 text-center bg-black my-10 rounded-3xl p-20 text-white">
+            <div className="flex justify-center items-center gap-4 ">
+                <div><SlCalender className="text-3xl"></SlCalender></div>
                 <div>
                     <p>
                         We are open monday-friday
