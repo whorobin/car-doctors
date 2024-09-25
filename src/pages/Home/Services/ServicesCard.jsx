@@ -1,7 +1,7 @@
 // import React from 'react';
+import { GrLinkNext } from "react-icons/gr";
 
 const ServicesCard = ({ service }) => {
-
     const { title, img, price } = service;
 
     return (
@@ -15,8 +15,8 @@ const ServicesCard = ({ service }) => {
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
                 <div className="flex">
-                    <p className="text-red-600 font-semibold">Price : ${price}</p>
-                    <button className="btn btn-error text-white font-bold">Details</button>
+                    <p className="text-red-600">Price : $ {price}</p>
+                    <GrLinkNext className="text-red-600"></GrLinkNext>
                 </div>
             </div>
         </div>

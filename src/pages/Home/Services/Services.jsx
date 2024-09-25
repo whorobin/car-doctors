@@ -14,13 +14,13 @@ const Services = () => {
     }, [])
 
     return (
-        <div className="mt-6 text-center">
+        <div className="mt-6">
             <div className="text-center">
                 <h3 className="text-xl text-red-500 font-bold">Service</h3>
                 <h2 className="text-3xl font-semibold">Our Service Area</h2>
                 <p>The majority have suffered alteration in some form, by injected humour, or randomised <br /> words which do not look even slightly believable. </p>
             </div>
-            <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center">
+            <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
                 {
                     services.map(service =>
                         <ServicesCard key={service._id}
@@ -29,7 +29,9 @@ const Services = () => {
                     )
                 }
             </div>
-            <button className="btn btn-outline btn-error font-bold my-10">More Services</button>
+            <div className="text-center">
+                <button className="btn btn-outline btn-error font-bold my-10 ">More Services</button>
+            </div>
         </div>
     );
 };

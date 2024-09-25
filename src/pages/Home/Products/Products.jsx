@@ -13,7 +13,7 @@ const Products = () => {
     return (
         <div className="my-5 text-center">
             <div className="">
-                <h3 className="text-2xl font-bold text-orange-500">Popular Products</h3>
+                <h3 className="text-2xl font-bold text-red-500">Popular Products</h3>
                 <h2 className="text-4xl font-bold">Browse Our Products</h2>
                 <p>the majority have suffered alteration in some form, by injected humour, or randomised <br />words which do not look even slightly believable. </p>
             </div>
@@ -37,7 +37,7 @@ const Products = () => {
                         </div>
                         <div className="card-body items-center text-center pt-2">
                             <h3 className="text-xl font-bold">Car Engine Plug</h3>
-                            <p className="text-orange-600">$20.00</p>
+                            <p className="text-red-600">$20.00</p>
                         </div>
                     </div>
                 </div>

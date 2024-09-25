@@ -11,7 +11,7 @@ const Contact = () => {
                     <p>
                         We are open monday-friday
                     </p>
-                    <h3 className="text-xl font-bold">7:00 am - 9:00 pm</h3>
+                    <h3 className="text-xl font-bold text-red-600">7:00 am - 9:00 pm</h3>
                 </div>
             </div>
 
@@ -22,7 +22,7 @@ const Contact = () => {
                     <p>
                         Have a question?
                     </p>
-                    <h3 className="text-xl font-bold">+2546 251 2658</h3>
+                    <h3 className="text-xl font-bold text-red-600">+2546 251 2658</h3>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                     <p>
                         Need a repair? our address
                     </p>
-                    <h3 className="text-xl font-bold">Liza Street, New York</h3>
+                    <h3 className="text-xl font-bold text-red-600">Liza Street, New York</h3>
                 </div>
             </div>
         </div>

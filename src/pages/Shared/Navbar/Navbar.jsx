@@ -9,7 +9,7 @@ const Navbar = () => {
 
     const navItem = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='services'>Services</Link></li>
+        <li><Link to='/services'>Services</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
         <li><Link to='/products'>Products</Link></li>
         <li><Link to='/about'>About</Link></li>
@@ -17,7 +17,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-base-100 h-24">
+        <div className="navbar bg-base-100 h-24 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
